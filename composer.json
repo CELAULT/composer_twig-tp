@@ -1,0 +1,30 @@
+{
+    "name": "celien-renault/composer_twig-tp",
+    "description": "Petit projet pour apprendre l'outil Composer & Twig.",
+    "type": "project",
+    "license": "MIT",
+
+    "autoload":
+    {
+        "psr-4":
+        {
+            "CelienRenault\\ComposerTwigTp\\": "src/"
+        }
+    },
+
+    "authors":
+    [
+        {
+            "name": "celien-renault",
+            "email": "renaultcelienr@gmail.com"
+        }
+    ],
+
+    "minimum-stability": "stable",
+
+    "require":
+    {
+        "twig/twig": "^3.3",
+        "monolog/monolog": "^2.3"
+    }
+}
